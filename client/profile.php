@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+session_start();
 include "koneksi.php";
+
 ?>
 
 <head>
@@ -9,18 +11,18 @@ include "koneksi.php";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="apple-touch-icon" href="assets/img/mb-favicon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/mb-favicon.png" />
+    <link rel="apple-touch-icon" href="../assets/img/mb-favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/mb-favicon.png" />
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/templatemo.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/templatemo.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
 
     <!-- Load fonts style after rendering the layout styles -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
 </head>
 
 <body>
@@ -32,7 +34,6 @@ include "koneksi.php";
                     <p>
                         Halo,
                         <?php
-                      session_start();
             echo $_SESSION['nama'];                 
             ?>!
                     </p>
@@ -49,7 +50,7 @@ include "koneksi.php";
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand text-success logo h1 align-self-center" href="index.php">
-                <img src="assets/img/milkybabylogo.png" alt="Milky Baby Logo" id="nav-logo" />
+                <img src="../assets/img/milkybabylogo.png" alt="Milky Baby Logo" id="nav-logo" />
             </a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -237,11 +238,11 @@ include "koneksi.php";
         </div>
 
         <!-- Start Script -->
-        <script src="assets/js/jquery-1.11.0.min.js"></script>
-        <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/templatemo.js"></script>
-        <script src="assets/js/custom.js"></script>
+        <script src="../assets/js/jquery-1.11.0.min.js"></script>
+        <script src="../assets/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/templatemo.js"></script>
+        <script src="../assets/js/custom.js"></script>
         <!-- End Script -->
 </body>
 

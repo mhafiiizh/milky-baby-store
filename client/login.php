@@ -9,16 +9,16 @@
     <meta name="author" content="" />
 
     <title>Milky Baby - Login</title>
-    <link rel="apple-touch-icon" href="assets/img/mb-favicon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/mb-favicon.png" />
+    <link rel="apple-touch-icon" href="../assets/img/mb-favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/mb-favicon.png" />
 
     <!-- Custom fonts for this template-->
-    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/all.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" />
 
     <!-- Custom styles for this template-->
-    <link rel="stylesheet" href="assets/css/sb-admin-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/sb-admin-2.min.css" />
 </head>
 
 <body class="bg-gradient-primary">
@@ -26,12 +26,12 @@
         <!-- Outer Row -->
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-12 col-md-9">
-                <div class="card o-hidden border-0 shadow-lg my-5" style="background-color: aliceblue";>
+                <div class="card o-hidden border-0 shadow-lg my-5" style="background-color: aliceblue" ;>
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
                             <div class="col-lg-6 d-none d-lg-block">
-                                <img src="assets/img/login-img.jpg" alt="Login Image" width="105%" />
+                                <img src="../assets/img/login-img.jpg" alt="Login Image" width="105%" />
                             </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
@@ -73,14 +73,14 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="assets/js/sb-admin-2.min.js"></script>
+    <script src="../assets/js/sb-admin-2.min.js"></script>
 </body>
 
 </html>

@@ -23,18 +23,18 @@ function runQuery($query) {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="apple-touch-icon" href="assets/img/mb-favicon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/mb-favicon.png" />
+    <link rel="apple-touch-icon" href="../assets/img/mb-favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/mb-favicon.png" />
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/templatemo.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/templatemo.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
 
     <!-- Load fonts style after rendering the layout styles -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
 </head>
 
 <body>
@@ -175,7 +175,7 @@ function runQuery($query) {
                                 <input type="hidden" name="id" value="<?php echo $product_array[$key]["id_barang"]; ?>">
                                 <div class="card rounded-0">
                                     <img class="card-img rounded mx-auto d-block img-fluid img-responsive"
-                                        src="admin/uploads/<?php echo $product_array[$key]["gambar_barang"]; ?>" />
+                                        src="../admin/uploads/<?php echo $product_array[$key]["gambar_barang"]; ?>" />
                                     <input type="hidden" name="img"
                                         value="<?php echo $product_array[$key]["gambar_barang"]; ?>">
                                 </div>
@@ -304,11 +304,11 @@ function runQuery($query) {
     <!-- End Footer -->
 
     <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
-    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/templatemo.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="../assets/js/jquery-1.11.0.min.js"></script>
+    <script src="../assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/templatemo.js"></script>
+    <script src="../assets/js/custom.js"></script>
     <!-- End Script -->
 </body>
 

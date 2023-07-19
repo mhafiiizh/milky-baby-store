@@ -10,19 +10,19 @@
     <meta name="author" content="">
 
     <title>Milky Baby - Register</title>
-    <link rel="apple-touch-icon" href="assets/img/mb-favicon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/mb-favicon.png" />
+    <link rel="apple-touch-icon" href="../assets/img/mb-favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/mb-favicon.png" />
 
     <!-- Custom fonts for this template-->
-    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" />
 
     <!-- Custom styles for this template-->
-    <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="assets/css/bootstrap-responsive.min2.css" rel="stylesheet" media="screen">
-    <script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../assets/css/bootstrap-responsive.min2.css" rel="stylesheet" media="screen">
+    <script src="../assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
 </head>
 
@@ -31,6 +31,7 @@
     <div class="container">
         <?php
         session_start();
+        include "koneksi.php";
         if (isset($_SESSION['danger'])) {
             echo '<script>alert("' . $_SESSION['danger'] . '");</script>';
             unset($_SESSION['danger']);
@@ -99,14 +100,14 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="assets/js/sb-admin-2.min.js"></script>
+    <script src="../assets/js/sb-admin-2.min.js"></script>
 
 </body>
 
